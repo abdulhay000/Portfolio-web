@@ -93,7 +93,7 @@ section {
   margin: 20px 0;
   color: var(--main);
   font-weight: bold;
-  width: 120%;
+  white-space: nowrap;
 }
 .home-buttons {
   display: flex;
@@ -408,6 +408,7 @@ footer p {
   }
   .subtitle {
     width: auto;
+    white-space: wrap;
   }
   .btn {
     margin: auto;
