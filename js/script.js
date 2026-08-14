@@ -2,6 +2,6 @@ const form = document.querySelector("form");
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
-  alert("Form submitted!");
+  alert("Thank you for your submission, we will respond shortly!");
   form.reset();
 });
